@@ -4,4 +4,11 @@ class MyStuff(object):
 		self.tangerine = "An example"
 
 	def apple(self):
-		print "Another example"
+		print "Another example 2"
+
+	@property
+	def foo(self):
+		return self.tangerine
+
+	def bar(self,value):
+		return self.tangerine + value
