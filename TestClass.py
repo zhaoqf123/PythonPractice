@@ -1,4 +1,4 @@
-class P:
+class P(object):
 	def __init__(self,x):
 		self.x = x
 
@@ -14,3 +14,6 @@ class P:
 			self.__x = 1000
 		else:
 			self.__x = x
+
+    def pop(self,value):
+		return self.x + value
