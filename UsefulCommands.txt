@@ -1,0 +1,2 @@
+dir(object/module/class)
+->Get the methods/attributed of object/module/class
