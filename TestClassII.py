@@ -1,3 +1,12 @@
+class Dad:
+    var1 = "I am dad"
+
+class Mom:
+    var1 = "I am mom"
+
+class Child(Dad, Mom):
+    pass
+
 class Song(object):
 
     def __init__(self, lyrics):
